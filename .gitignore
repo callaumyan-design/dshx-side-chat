@@ -1,0 +1,7 @@
+test/node_modules/
+test/plug/
+node_modules/
+*.log
+*.bak*
+*.tgz
+.DS_Store

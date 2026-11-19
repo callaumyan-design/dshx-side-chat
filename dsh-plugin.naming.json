@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "policy": "dsh-plugin-naming/v1",
+  "plugin": { "namespace": "dshx", "name": "side-chat", "coordinate": "dshx/side-chat", "packageName": "dshx-side-chat" },
+  "names": {
+    "pluginNames": ["dshx-side-chat"],
+    "loaderIds": ["dshx-side-chat"],
+    "services": [],
+    "tools": [],
+    "commands": ["btw"],
+    "skills": [],
+    "skillProviders": [],
+    "events": [],
+    "settingsNamespaces": [],
+    "routes": [
+      { "kind": "exact", "path": "/dshx-side-chat/ask" },
+      { "kind": "exact", "path": "/dshx-side-chat/models" },
+      { "kind": "exact", "path": "/dshx-side-chat/pending" }
+    ]
+  }
+}
